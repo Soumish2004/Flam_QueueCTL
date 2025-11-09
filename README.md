@@ -544,16 +544,10 @@ python queuectl.py clear --yes
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `max_retries` | 3 | Maximum retry attempts |
-| `backoff_base` | 2 | Exponential backoff base |
+| `max_retries` | 5 | Maximum retry attempts |
+| `backoff_base` | 3 | Exponential backoff base |
 | `timeout` | 20 | Default job timeout (seconds) |
-| `priority` | 5 | Default job priority (1-10) |
-
----
-
-## License
-
-This project is provided as-is for educational and development purposes.
+| `priority` | 1 | Default job priority (1-10) |
 
 ---
 
@@ -563,18 +557,3 @@ This project is provided as-is for educational and development purposes.
 - **[REALTIME_FEATURE.md](REALTIME_FEATURE.md)** - Real-time monitoring feature guide
 - **[BUILD_EXE.md](BUILD_EXE.md)** - Building executable instructions
 - **[DEMO_2MIN.md](DEMO_2MIN.md)** - Quick 2-minute demo commands
-
----
-
-## Author
-
-**Soumish** - [GitHub](https://github.com/Soumish2004)
-
----
-
-## Acknowledgments
-
-Built with:
-- **Click** - CLI framework
-- **Tabulate** - Table formatting
-- **SQLite** - Persistent storage
